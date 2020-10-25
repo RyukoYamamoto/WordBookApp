@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672321252511F1AC00ED3A0F /* TouchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672321242511F1AC00ED3A0F /* TouchEvent.swift */; };
+		672321272512159500ED3A0F /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672321262512159500ED3A0F /* CircularProgress.swift */; };
+		6723212925124A1200ED3A0F /* effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6723212825124A1200ED3A0F /* effect.mp3 */; };
+		672A11BC252C84ED00135808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFBB24F3C23900C1E08C /* LaunchScreen.storyboard */; };
+		672C6F98253B41A100507083 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C6F97253B41A100507083 /* SettingVC.swift */; };
+		672C6F9F253DFD3A00507083 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672C6F9E253DFD3900507083 /* MessageUI.framework */; };
+		672C6FA225406D8900507083 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 672C6FA125406D8800507083 /* Settings.bundle */; };
+		678C0E802538A59500DBD4D6 /* 国名.csv in Resources */ = {isa = PBXBuildFile; fileRef = 678C0E7F2538A59500DBD4D6 /* 国名.csv */; };
+		678C0E832538A59C00DBD4D6 /* 首都.csv in Resources */ = {isa = PBXBuildFile; fileRef = 678C0E822538A59C00DBD4D6 /* 首都.csv */; };
+		678C0E862538A81A00DBD4D6 /* 県名.csv in Resources */ = {isa = PBXBuildFile; fileRef = 678C0E852538A81A00DBD4D6 /* 県名.csv */; };
+		678C0E892538A82000DBD4D6 /* 県庁所在地.csv in Resources */ = {isa = PBXBuildFile; fileRef = 678C0E882538A82000DBD4D6 /* 県庁所在地.csv */; };
+		67A4441A2520598C00BC42E6 /* DownloadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A444192520598C00BC42E6 /* DownloadVC.swift */; };
+		67A444202521DC1100BC42E6 /* DownloadWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4441F2521DC1000BC42E6 /* DownloadWordVC.swift */; };
+		67A4442325234D9B00BC42E6 /* DownloadTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4442225234D9B00BC42E6 /* DownloadTestVC.swift */; };
+		67A444262523A4D000BC42E6 /* DownloadResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A444252523A4CF00BC42E6 /* DownloadResultVC.swift */; };
+		67FAEFB124F3C22E00C1E08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFB024F3C22E00C1E08C /* AppDelegate.swift */; };
+		67FAEFB324F3C22E00C1E08C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFB224F3C22E00C1E08C /* SceneDelegate.swift */; };
+		67FAEFB524F3C22E00C1E08C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFB424F3C22E00C1E08C /* HomeVC.swift */; };
+		67FAEFB824F3C22E00C1E08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFB624F3C22E00C1E08C /* Main.storyboard */; };
+		67FAEFBA24F3C23900C1E08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFB924F3C23900C1E08C /* Assets.xcassets */; };
+		67FAEFC624F3EB9600C1E08C /* ExtensionCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFC524F3EB9600C1E08C /* ExtensionCALayer.swift */; };
+		67FAEFCA24F6491900C1E08C /* WordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFC924F6491900C1E08C /* WordVC.swift */; };
+		67FAEFCF24F64F4D00C1E08C /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFCD24F64F4D00C1E08C /* WordCell.swift */; };
+		67FAEFD024F64F4D00C1E08C /* WordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFCE24F64F4D00C1E08C /* WordCell.xib */; };
+		67FAEFD224F7DF0A00C1E08C /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFD124F7DF0A00C1E08C /* TestVC.swift */; };
+		67FAEFD524F7E30100C1E08C /* EmptyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFD424F7E30100C1E08C /* EmptyTestView.swift */; };
+		67FAEFD724F7E31900C1E08C /* EmptyTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFD624F7E31900C1E08C /* EmptyTestView.xib */; };
+		67FAEFD924FB7CC700C1E08C /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFD824FB7CC700C1E08C /* ResultVC.swift */; };
+		67FAEFDC24FB858A00C1E08C /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFDA24FB858A00C1E08C /* ResultCell.swift */; };
+		67FAEFDD24FB858A00C1E08C /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFDB24FB858A00C1E08C /* ResultCell.xib */; };
+		67FAEFDF24FBC67100C1E08C /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFDE24FBC67100C1E08C /* Sound.swift */; };
+		67FAEFE124FBDF0500C1E08C /* main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFE024FBDF0500C1E08C /* main.mp3 */; };
+		67FAEFED25011C4100C1E08C /* false.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFEC25011C4100C1E08C /* false.mp3 */; };
+		67FAEFEF25011CAB00C1E08C /* true.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67FAEFEE25011CAB00C1E08C /* true.mp3 */; };
+		67FAEFF3250F618800C1E08C /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAEFF2250F618800C1E08C /* PulseAnimation.swift */; };
+		8D6E0FF2A59AC40F437803A5 /* Pods_WordBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A8C02ADB30CD53036F4248 /* Pods_WordBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CB8E267CA3B3C31CC9B17DD /* Pods-WordBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordBook.release.xcconfig"; path = "Target Support Files/Pods-WordBook/Pods-WordBook.release.xcconfig"; sourceTree = "<group>"; };
+		672321242511F1AC00ED3A0F /* TouchEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEvent.swift; sourceTree = "<group>"; };
+		672321262512159500ED3A0F /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		6723212825124A1200ED3A0F /* effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = effect.mp3; sourceTree = "<group>"; };
+		672C6F97253B41A100507083 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		672C6F9E253DFD3900507083 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		672C6FA125406D8800507083 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		678C0E7F2538A59500DBD4D6 /* 国名.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "国名.csv"; sourceTree = "<group>"; };
+		678C0E822538A59C00DBD4D6 /* 首都.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "首都.csv"; sourceTree = "<group>"; };
+		678C0E852538A81A00DBD4D6 /* 県名.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "県名.csv"; sourceTree = "<group>"; };
+		678C0E882538A82000DBD4D6 /* 県庁所在地.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "県庁所在地.csv"; sourceTree = "<group>"; };
+		67A444192520598C00BC42E6 /* DownloadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVC.swift; sourceTree = "<group>"; };
+		67A4441F2521DC1000BC42E6 /* DownloadWordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWordVC.swift; sourceTree = "<group>"; };
+		67A4442225234D9B00BC42E6 /* DownloadTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTestVC.swift; sourceTree = "<group>"; };
+		67A444252523A4CF00BC42E6 /* DownloadResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadResultVC.swift; sourceTree = "<group>"; };
+		67FAEFAD24F3C22E00C1E08C /* WordBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FAEFB024F3C22E00C1E08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67FAEFB224F3C22E00C1E08C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67FAEFB424F3C22E00C1E08C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		67FAEFB724F3C22E00C1E08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67FAEFB924F3C23900C1E08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67FAEFBC24F3C23900C1E08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67FAEFBE24F3C23900C1E08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FAEFC524F3EB9600C1E08C /* ExtensionCALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCALayer.swift; sourceTree = "<group>"; };
+		67FAEFC924F6491900C1E08C /* WordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordVC.swift; sourceTree = "<group>"; };
+		67FAEFCD24F64F4D00C1E08C /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		67FAEFCE24F64F4D00C1E08C /* WordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WordCell.xib; sourceTree = "<group>"; };
+		67FAEFD124F7DF0A00C1E08C /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		67FAEFD424F7E30100C1E08C /* EmptyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTestView.swift; sourceTree = "<group>"; };
+		67FAEFD624F7E31900C1E08C /* EmptyTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTestView.xib; sourceTree = "<group>"; };
+		67FAEFD824FB7CC700C1E08C /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		67FAEFDA24FB858A00C1E08C /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		67FAEFDB24FB858A00C1E08C /* ResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCell.xib; sourceTree = "<group>"; };
+		67FAEFDE24FBC67100C1E08C /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		67FAEFE024FBDF0500C1E08C /* main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = main.mp3; sourceTree = "<group>"; };
+		67FAEFEC25011C4100C1E08C /* false.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = false.mp3; sourceTree = "<group>"; };
+		67FAEFEE25011CAB00C1E08C /* true.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = true.mp3; sourceTree = "<group>"; };
+		67FAEFF2250F618800C1E08C /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		B0A8C02ADB30CD53036F4248 /* Pods_WordBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6474E2B65C6AFBEE7F3762 /* Pods-WordBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordBook.debug.xcconfig"; path = "Target Support Files/Pods-WordBook/Pods-WordBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FAEFAA24F3C22E00C1E08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672C6F9F253DFD3A00507083 /* MessageUI.framework in Frameworks */,
+				8D6E0FF2A59AC40F437803A5 /* Pods_WordBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2980AADE73F55757901F511B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672C6F9E253DFD3900507083 /* MessageUI.framework */,
+				B0A8C02ADB30CD53036F4248 /* Pods_WordBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67FAEFA424F3C22D00C1E08C = {
+			isa = PBXGroup;
+			children = (
+				67FAEFAF24F3C22E00C1E08C /* WordBook */,
+				67FAEFAE24F3C22E00C1E08C /* Products */,
+				E387D5AD4BE23B7ECAF8EDE8 /* Pods */,
+				2980AADE73F55757901F511B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67FAEFAE24F3C22E00C1E08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67FAEFAD24F3C22E00C1E08C /* WordBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67FAEFAF24F3C22E00C1E08C /* WordBook */ = {
+			isa = PBXGroup;
+			children = (
+				67FAEFBE24F3C23900C1E08C /* Info.plist */,
+				67FAEFB024F3C22E00C1E08C /* AppDelegate.swift */,
+				67FAEFB224F3C22E00C1E08C /* SceneDelegate.swift */,
+				67FAEFD324F7E08E00C1E08C /* EmptyView */,
+				67FAEFCC24F64F2A00C1E08C /* WordCell */,
+				67FAEFCB24F64DD700C1E08C /* VC */,
+				67FAEFC424F3EAFD00C1E08C /* Extension */,
+				67FAEFB624F3C22E00C1E08C /* Main.storyboard */,
+				67FAEFBB24F3C23900C1E08C /* LaunchScreen.storyboard */,
+				67FAEFE024FBDF0500C1E08C /* main.mp3 */,
+				67FAEFEE25011CAB00C1E08C /* true.mp3 */,
+				67FAEFEC25011C4100C1E08C /* false.mp3 */,
+				6723212825124A1200ED3A0F /* effect.mp3 */,
+				678C0E7F2538A59500DBD4D6 /* 国名.csv */,
+				678C0E822538A59C00DBD4D6 /* 首都.csv */,
+				678C0E852538A81A00DBD4D6 /* 県名.csv */,
+				678C0E882538A82000DBD4D6 /* 県庁所在地.csv */,
+				67FAEFB924F3C23900C1E08C /* Assets.xcassets */,
+				672C6FA125406D8800507083 /* Settings.bundle */,
+			);
+			path = WordBook;
+			sourceTree = "<group>";
+		};
+		67FAEFC424F3EAFD00C1E08C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67FAEFC524F3EB9600C1E08C /* ExtensionCALayer.swift */,
+				67FAEFDE24FBC67100C1E08C /* Sound.swift */,
+				67FAEFF2250F618800C1E08C /* PulseAnimation.swift */,
+				672321242511F1AC00ED3A0F /* TouchEvent.swift */,
+				672321262512159500ED3A0F /* CircularProgress.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		67FAEFCB24F64DD700C1E08C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				67FAEFB424F3C22E00C1E08C /* HomeVC.swift */,
+				67FAEFC924F6491900C1E08C /* WordVC.swift */,
+				67FAEFD124F7DF0A00C1E08C /* TestVC.swift */,
+				67FAEFD824FB7CC700C1E08C /* ResultVC.swift */,
+				672C6F97253B41A100507083 /* SettingVC.swift */,
+				67A444192520598C00BC42E6 /* DownloadVC.swift */,
+				67A4441F2521DC1000BC42E6 /* DownloadWordVC.swift */,
+				67A4442225234D9B00BC42E6 /* DownloadTestVC.swift */,
+				67A444252523A4CF00BC42E6 /* DownloadResultVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		67FAEFCC24F64F2A00C1E08C /* WordCell */ = {
+			isa = PBXGroup;
+			children = (
+				67FAEFCD24F64F4D00C1E08C /* WordCell.swift */,
+				67FAEFCE24F64F4D00C1E08C /* WordCell.xib */,
+				67FAEFDA24FB858A00C1E08C /* ResultCell.swift */,
+				67FAEFDB24FB858A00C1E08C /* ResultCell.xib */,
+			);
+			path = WordCell;
+			sourceTree = "<group>";
+		};
+		67FAEFD324F7E08E00C1E08C /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				67FAEFD424F7E30100C1E08C /* EmptyTestView.swift */,
+				67FAEFD624F7E31900C1E08C /* EmptyTestView.xib */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		E387D5AD4BE23B7ECAF8EDE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE6474E2B65C6AFBEE7F3762 /* Pods-WordBook.debug.xcconfig */,
+				0CB8E267CA3B3C31CC9B17DD /* Pods-WordBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67FAEFAC24F3C22E00C1E08C /* WordBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FAEFC124F3C23900C1E08C /* Build configuration list for PBXNativeTarget "WordBook" */;
+			buildPhases = (
+				D782F58CCEE78E79FD2419B3 /* [CP] Check Pods Manifest.lock */,
+				67FAEFA924F3C22E00C1E08C /* Sources */,
+				67FAEFAA24F3C22E00C1E08C /* Frameworks */,
+				67FAEFAB24F3C22E00C1E08C /* Resources */,
+				0B459E8C9E5262901BD0B2E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordBook;
+			productName = WordBook;
+			productReference = 67FAEFAD24F3C22E00C1E08C /* WordBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67FAEFA524F3C22D00C1E08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Ryuko Yamamoto";
+				TargetAttributes = {
+					67FAEFAC24F3C22E00C1E08C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 67FAEFA824F3C22D00C1E08C /* Build configuration list for PBXProject "WordBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67FAEFA424F3C22D00C1E08C;
+			productRefGroup = 67FAEFAE24F3C22E00C1E08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67FAEFAC24F3C22E00C1E08C /* WordBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67FAEFAB24F3C22E00C1E08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678C0E862538A81A00DBD4D6 /* 県名.csv in Resources */,
+				67FAEFDD24FB858A00C1E08C /* ResultCell.xib in Resources */,
+				67FAEFD024F64F4D00C1E08C /* WordCell.xib in Resources */,
+				67FAEFE124FBDF0500C1E08C /* main.mp3 in Resources */,
+				678C0E892538A82000DBD4D6 /* 県庁所在地.csv in Resources */,
+				672A11BC252C84ED00135808 /* LaunchScreen.storyboard in Resources */,
+				67FAEFBA24F3C23900C1E08C /* Assets.xcassets in Resources */,
+				672C6FA225406D8900507083 /* Settings.bundle in Resources */,
+				67FAEFED25011C4100C1E08C /* false.mp3 in Resources */,
+				67FAEFD724F7E31900C1E08C /* EmptyTestView.xib in Resources */,
+				6723212925124A1200ED3A0F /* effect.mp3 in Resources */,
+				67FAEFEF25011CAB00C1E08C /* true.mp3 in Resources */,
+				678C0E802538A59500DBD4D6 /* 国名.csv in Resources */,
+				67FAEFB824F3C22E00C1E08C /* Main.storyboard in Resources */,
+				678C0E832538A59C00DBD4D6 /* 首都.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B459E8C9E5262901BD0B2E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordBook/Pods-WordBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordBook/Pods-WordBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WordBook/Pods-WordBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D782F58CCEE78E79FD2419B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67FAEFA924F3C22E00C1E08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FAEFB524F3C22E00C1E08C /* HomeVC.swift in Sources */,
+				67FAEFDF24FBC67100C1E08C /* Sound.swift in Sources */,
+				67FAEFB124F3C22E00C1E08C /* AppDelegate.swift in Sources */,
+				67FAEFDC24FB858A00C1E08C /* ResultCell.swift in Sources */,
+				67A444262523A4D000BC42E6 /* DownloadResultVC.swift in Sources */,
+				67FAEFCA24F6491900C1E08C /* WordVC.swift in Sources */,
+				672C6F98253B41A100507083 /* SettingVC.swift in Sources */,
+				67FAEFCF24F64F4D00C1E08C /* WordCell.swift in Sources */,
+				67FAEFD524F7E30100C1E08C /* EmptyTestView.swift in Sources */,
+				67FAEFB324F3C22E00C1E08C /* SceneDelegate.swift in Sources */,
+				67FAEFF3250F618800C1E08C /* PulseAnimation.swift in Sources */,
+				67FAEFC624F3EB9600C1E08C /* ExtensionCALayer.swift in Sources */,
+				672321272512159500ED3A0F /* CircularProgress.swift in Sources */,
+				67A444202521DC1100BC42E6 /* DownloadWordVC.swift in Sources */,
+				67A4441A2520598C00BC42E6 /* DownloadVC.swift in Sources */,
+				67A4442325234D9B00BC42E6 /* DownloadTestVC.swift in Sources */,
+				67FAEFD924FB7CC700C1E08C /* ResultVC.swift in Sources */,
+				672321252511F1AC00ED3A0F /* TouchEvent.swift in Sources */,
+				67FAEFD224F7DF0A00C1E08C /* TestVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67FAEFB624F3C22E00C1E08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FAEFB724F3C22E00C1E08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67FAEFBB24F3C23900C1E08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FAEFBC24F3C23900C1E08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67FAEFBF24F3C23900C1E08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67FAEFC024F3C23900C1E08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67FAEFC224F3C23900C1E08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6474E2B65C6AFBEE7F3762 /* Pods-WordBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = NR6395B7G8;
+				INFOPLIST_FILE = WordBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamaryuukou-icloud.com.WordBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67FAEFC324F3C23900C1E08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB8E267CA3B3C31CC9B17DD /* Pods-WordBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = NR6395B7G8;
+				INFOPLIST_FILE = WordBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yamaryuukou-icloud.com.WordBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67FAEFA824F3C22D00C1E08C /* Build configuration list for PBXProject "WordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FAEFBF24F3C23900C1E08C /* Debug */,
+				67FAEFC024F3C23900C1E08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FAEFC124F3C23900C1E08C /* Build configuration list for PBXNativeTarget "WordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FAEFC224F3C23900C1E08C /* Debug */,
+				67FAEFC324F3C23900C1E08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67FAEFA524F3C22D00C1E08C /* Project object */;
+}

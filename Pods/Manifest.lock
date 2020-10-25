@@ -1,0 +1,29 @@
+PODS:
+  - GradientCircularProgress (3.13.0)
+  - NCMB (1.1.2)
+
+DEPENDENCIES:
+  - GradientCircularProgress (from `https://github.com/keygx/GradientCircularProgress`)
+  - NCMB (from `https://github.com/NIFCLOUD-mbaas/ncmb_swift.git`)
+
+EXTERNAL SOURCES:
+  GradientCircularProgress:
+    :git: https://github.com/keygx/GradientCircularProgress
+  NCMB:
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_swift.git
+
+CHECKOUT OPTIONS:
+  GradientCircularProgress:
+    :commit: 9e2dc60d335ee6eb3677bfd9f965f0ade3607f4c
+    :git: https://github.com/keygx/GradientCircularProgress
+  NCMB:
+    :commit: be8833647e6b4f4ab154bbd849929692349cb418
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_swift.git
+
+SPEC CHECKSUMS:
+  GradientCircularProgress: f5a04b862adc1fbafbd21c0ff450ed7d74d1926e
+  NCMB: 71a6dc3bce6124739ef9d287fb8811664ae0968b
+
+PODFILE CHECKSUM: 54874770790c94e47d74976f220751c585044b62
+
+COCOAPODS: 1.9.3
